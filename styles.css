@@ -1,1 +1,35 @@
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  color: #333;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
